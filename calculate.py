@@ -7,6 +7,10 @@ while s:
         r -= n
     elif op == '+':
         r += n
+    elif op == '*':
+        r *= n
+    elif op == '/':
+        r /= n
     else:
         print("Bad operator:", op)
     print(r)
